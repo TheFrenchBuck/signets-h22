@@ -14,14 +14,40 @@
     display: flex;
     padding: 0 1.25rem;
   }
-
-  .utilisateur {
+  nav{
+    border:  1px solide red ;
+    display: flex;
+    justify-content: flex-end;
     align-items: center;
-    cursor: pointer;
-    .avatar {
-      margin-left: 1.25rem;
-      width: 2rem;
-      height: 2rem;
+    .utilisateur {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      .avatar {
+        margin-left: 1.25rem;
+        width: 2rem;
+        height: 2rem;
+      }
     }
+    .btn-deconnexion{
+      margin-left:1rem ;
+      background-color: brown;
+      padding: 5px;
+      border: 1px solid red ;
+      border-radius: 3px;
+      box-shadow: 2px 2px 10px 3px darkgray;
+      cursor: pointer;
+    }
+    .btn-deconnexion:hover{
+      
+      background-color: red;
+      
+      border: 1px solid brown ;
+     
+      cursor: pointer;
+    }
+
   }
+
+
 }
